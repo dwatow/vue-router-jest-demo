@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import App from '@/App.vue';
 import About from '@/views/About.vue';
 import Home from '@/views/Home.vue';
+import HelloWorld from '@/components/HelloWorld.vue';
 import routes from '@/router/routes';
 
 const localVue = createLocalVue();
@@ -19,6 +20,7 @@ describe('Actions.vue', () => {
     router.push('/');
     await wrapper.vm.$nextTick();
     expect(wrapper.find(Home).exists()).toBe(true);
+    expect(wrapper.find(HelloWorld).exists()).toBe(true);
   });
   it('route path: /about, component: About', async () => {
     router.push('/about');
