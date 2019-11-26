@@ -1,34 +1,18 @@
 # vue-router-unit-test-demo
 
-## Project setup
-```
+這是[Jest for Vue with Vue Router 演練](https://dwatow.github.io/2019/11-26-vuejs/jest-for-vue-router/)的範例程式碼
+
+## 專案起步
+
+```shell
+git clone https://github.com/dwatow/vue-router-jest-demo.git
+cd vue-router-jest-demo
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### 跑測試
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your unit tests
 ```
 npm run test:unit
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
